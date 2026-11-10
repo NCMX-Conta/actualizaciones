@@ -1,0 +1,9 @@
+{
+  "version": "1.6.0",
+  "fecha": "2026-11-10",
+  "notas": "Protección: la licencia queda amarrada al equipo (ve el código en Licencia), la prueba de 30 días ya no se reinicia al reinstalar, las empresas borradas siguen contando 90 días contra el límite y el programa ya no lleva el código fuente legible.",
+  "url": "https://raw.githubusercontent.com/NCMX-Conta/actualizaciones/main/v1.6.0/NeuralContaMX.exe",
+  "sha256": "f1a51776b5189b6222ddad325cfe038d45de28927a18bd7bedbeb8ccd0e90f91",
+  "tamano": 69072117,
+  "firma": "nNajreivqldXM8GhPokx7ITgMuvu8GJZWN8q2G5/oJoA9uSaBv7X5ZplE23gyW39iZ++ndsaWB6WeCxXvwckBA=="
+}
