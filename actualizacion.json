@@ -1,9 +1,9 @@
 {
-  "version": "1.6.0",
-  "fecha": "2026-11-10",
-  "notas": "Protección: la licencia queda amarrada al equipo (ve el código en Licencia), la prueba de 30 días ya no se reinicia al reinstalar, las empresas borradas siguen contando 90 días contra el límite y el programa ya no lleva el código fuente legible.",
-  "url": "https://raw.githubusercontent.com/NCMX-Conta/actualizaciones/main/v1.6.0/NeuralContaMX.exe",
-  "sha256": "f1a51776b5189b6222ddad325cfe038d45de28927a18bd7bedbeb8ccd0e90f91",
-  "tamano": 69072117,
-  "firma": "nNajreivqldXM8GhPokx7ITgMuvu8GJZWN8q2G5/oJoA9uSaBv7X5ZplE23gyW39iZ++ndsaWB6WeCxXvwckBA=="
+  "version": "1.6.1",
+  "fecha": "2026-11-12",
+  "notas": "Corrige la descarga de XML desde las pólizas y de los respaldos, que no hacían nada en la ventana de la app. Los XML ya se descargan con su nombre correcto (sin .xml.xml).",
+  "url": "https://raw.githubusercontent.com/NCMX-Conta/actualizaciones/main/v1.6.1/NeuralContaMX.exe",
+  "sha256": "ec7eb4ec94b693fcf03ed63f9ef5b2a43f710f882bf698738e30e0e6ac3ef503",
+  "tamano": 69073110,
+  "firma": "i0roq6NhwoCop5ODMM5j8qY1JW22Cx3/fJBnwTTXcJh3xEjzDBKFNQOjAO/BmBWBZX/Ixfl13+aWIYM9xNjMBQ=="
 }
