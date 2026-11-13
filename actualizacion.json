@@ -1,9 +1,9 @@
 {
-  "version": "1.7.0",
+  "version": "1.8.0",
   "fecha": "2026-11-13",
-  "notas": "Cierre de mes revisado de punta a punta. Se contabilizan los cobros y pagos de facturas de meses que no están en la app (con su IVA y retenciones). Los complementos con varios pagos cuentan cada pago en su mes. DIOT: IVA no acreditable de gastos en efectivo en el campo 37, sin facturas canceladas, y cuadra con la declaración. ISR de personas físicas con la tarifa acumulada exacta. Contabilidad electrónica: balanza con cuentas de mayor, número de orden o de trámite en las pólizas y nombres de archivo del SAT. Avisos de gasolina pagada en efectivo y pólizas con concepto claro.",
-  "url": "https://raw.githubusercontent.com/NCMX-Conta/actualizaciones/main/v1.7.0/NeuralContaMX.exe",
-  "sha256": "ac369b5275ceed096cf9328648cc78e71634bd8bb27ec611ed22727f04bf3077",
-  "tamano": 69089877,
-  "firma": "NdKEhKInN1dH3Ds758JI7MoFTknfMoU50EjjZJkOUVRndgtEmCLCSlCjCFIXIfdzlwbxG1wX3Nb0f/QbjybZAw=="
+  "notas": "Complementos de pago que pagan facturas que no están en la app (o mezcladas con facturas de la app) se registran completos y sin duplicar; cada complemento pendiente dice por qué. Facturas a crédito esperan su pago, una póliza por parcialidad, Revisar contabilidad, motivo de cada factura sin póliza y aviso de compra de automóvil.",
+  "url": "https://raw.githubusercontent.com/NCMX-Conta/actualizaciones/main/v1.8.0/NeuralContaMX.exe",
+  "sha256": "954acae7f4bc6918557a4287685bd143697ee11b573e6d9f2128c5c4971ed62a",
+  "tamano": 69112684,
+  "firma": "r3Utctsn6PYiFCTiXidnZG8JJrdPPZB2xlzg8o8cLh4ngKuGGjfFaBQDzInrVLPIrNNcelV5EAnpg1ESy5WGAQ=="
 }
