@@ -1,9 +1,9 @@
 {
-  "version": "1.6.3",
+  "version": "1.7.0",
   "fecha": "2026-11-13",
-  "notas": "Pólizas: al borrar todas las pólizas los contadores (Todas, Ingresos, Egresos) ya regresan a cero, y las facturas vuelven a quedar pendientes aunque el folio corto no coincida.",
-  "url": "https://raw.githubusercontent.com/NCMX-Conta/actualizaciones/main/v1.6.3/NeuralContaMX.exe",
-  "sha256": "89d20b3dc8e76ec69af16aa64e033712e84c3099d9739d634160c534ffecc5b5",
-  "tamano": 69078374,
-  "firma": "TftPtEbzTlutvTlDCskDYN3g59Ml0I40/ukcnyH6GT0hM7vBM1byYEXNafe4j5TbnN6zIh/i00Ve8QRuweILBg=="
+  "notas": "Cierre de mes revisado de punta a punta. Se contabilizan los cobros y pagos de facturas de meses que no están en la app (con su IVA y retenciones). Los complementos con varios pagos cuentan cada pago en su mes. DIOT: IVA no acreditable de gastos en efectivo en el campo 37, sin facturas canceladas, y cuadra con la declaración. ISR de personas físicas con la tarifa acumulada exacta. Contabilidad electrónica: balanza con cuentas de mayor, número de orden o de trámite en las pólizas y nombres de archivo del SAT. Avisos de gasolina pagada en efectivo y pólizas con concepto claro.",
+  "url": "https://raw.githubusercontent.com/NCMX-Conta/actualizaciones/main/v1.7.0/NeuralContaMX.exe",
+  "sha256": "ac369b5275ceed096cf9328648cc78e71634bd8bb27ec611ed22727f04bf3077",
+  "tamano": 69089877,
+  "firma": "NdKEhKInN1dH3Ds758JI7MoFTknfMoU50EjjZJkOUVRndgtEmCLCSlCjCFIXIfdzlwbxG1wX3Nb0f/QbjybZAw=="
 }
