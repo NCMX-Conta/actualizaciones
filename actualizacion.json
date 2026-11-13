@@ -1,9 +1,9 @@
 {
-  "version": "1.6.2",
+  "version": "1.6.3",
   "fecha": "2026-11-13",
-  "notas": "Lectura de XML: el IVA ya no incluye el IEPS y el IEPS no se cuenta dos veces. Nómina: las cuotas de retiro (003) van con las cuotas IMSS/ISSSTE, y el reintegro de ISR y los ajustes al neto ya no se registran como subsidio. Dos CFDI con UUID parecido ya no se confunden.",
-  "url": "https://raw.githubusercontent.com/NCMX-Conta/actualizaciones/main/v1.6.2/NeuralContaMX.exe",
-  "sha256": "1691ecce72679ab33b66087dd4eb635e55a9354fed8609e9a1c7c0d097b43c0c",
-  "tamano": 69078085,
-  "firma": "oe3N8bcrdXtIluxJgRQydsDyFJW4sLUiyUmJAg4AmGJAyCZvZr2Z7WnDJZRQt5IZB2krLLk+EJaL3mwCMuJCCA=="
+  "notas": "Pólizas: al borrar todas las pólizas los contadores (Todas, Ingresos, Egresos) ya regresan a cero, y las facturas vuelven a quedar pendientes aunque el folio corto no coincida.",
+  "url": "https://raw.githubusercontent.com/NCMX-Conta/actualizaciones/main/v1.6.3/NeuralContaMX.exe",
+  "sha256": "89d20b3dc8e76ec69af16aa64e033712e84c3099d9739d634160c534ffecc5b5",
+  "tamano": 69078374,
+  "firma": "TftPtEbzTlutvTlDCskDYN3g59Ml0I40/ukcnyH6GT0hM7vBM1byYEXNafe4j5TbnN6zIh/i00Ve8QRuweILBg=="
 }
