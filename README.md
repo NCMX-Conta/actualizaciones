@@ -8,4 +8,4 @@ El programa revisa aquí si hay una versión nueva.
 
 - **[Descargar el instalador de NeuralContaMX](https://github.com/NCMX-Conta/actualizaciones/raw/main/Instalar-NeuralContaMX.exe)** (siempre la última versión)
 
-- Instalador de la versión actual: carpeta `v1.6.1` → `Instalar-NeuralContaMX-1.6.1.exe`
+- Instalador de la versión actual: carpeta `v1.6.2` → `Instalar-NeuralContaMX-1.6.2.exe`

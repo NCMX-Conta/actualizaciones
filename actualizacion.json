@@ -1,9 +1,9 @@
 {
-  "version": "1.6.1",
-  "fecha": "2026-11-12",
-  "notas": "Corrige la descarga de XML desde las pólizas y de los respaldos, que no hacían nada en la ventana de la app. Los XML ya se descargan con su nombre correcto (sin .xml.xml).",
-  "url": "https://raw.githubusercontent.com/NCMX-Conta/actualizaciones/main/v1.6.1/NeuralContaMX.exe",
-  "sha256": "ec7eb4ec94b693fcf03ed63f9ef5b2a43f710f882bf698738e30e0e6ac3ef503",
-  "tamano": 69073110,
-  "firma": "i0roq6NhwoCop5ODMM5j8qY1JW22Cx3/fJBnwTTXcJh3xEjzDBKFNQOjAO/BmBWBZX/Ixfl13+aWIYM9xNjMBQ=="
+  "version": "1.6.2",
+  "fecha": "2026-11-13",
+  "notas": "Lectura de XML: el IVA ya no incluye el IEPS y el IEPS no se cuenta dos veces. Nómina: las cuotas de retiro (003) van con las cuotas IMSS/ISSSTE, y el reintegro de ISR y los ajustes al neto ya no se registran como subsidio. Dos CFDI con UUID parecido ya no se confunden.",
+  "url": "https://raw.githubusercontent.com/NCMX-Conta/actualizaciones/main/v1.6.2/NeuralContaMX.exe",
+  "sha256": "1691ecce72679ab33b66087dd4eb635e55a9354fed8609e9a1c7c0d097b43c0c",
+  "tamano": 69078085,
+  "firma": "oe3N8bcrdXtIluxJgRQydsDyFJW4sLUiyUmJAg4AmGJAyCZvZr2Z7WnDJZRQt5IZB2krLLk+EJaL3mwCMuJCCA=="
 }
