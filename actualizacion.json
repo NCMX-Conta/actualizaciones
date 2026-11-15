@@ -1,9 +1,9 @@
 {
-  "version": "1.8.0",
-  "fecha": "2026-11-13",
-  "notas": "Complementos de pago que pagan facturas que no están en la app (o mezcladas con facturas de la app) se registran completos y sin duplicar; cada complemento pendiente dice por qué. Facturas a crédito esperan su pago, una póliza por parcialidad, Revisar contabilidad, motivo de cada factura sin póliza y aviso de compra de automóvil.",
-  "url": "https://raw.githubusercontent.com/NCMX-Conta/actualizaciones/main/v1.8.0/NeuralContaMX.exe",
-  "sha256": "954acae7f4bc6918557a4287685bd143697ee11b573e6d9f2128c5c4971ed62a",
-  "tamano": 69112684,
-  "firma": "r3Utctsn6PYiFCTiXidnZG8JJrdPPZB2xlzg8o8cLh4ngKuGGjfFaBQDzInrVLPIrNNcelV5EAnpg1ESy5WGAQ=="
+  "version": "1.8.1",
+  "fecha": "2026-11-15",
+  "notas": "Correcciones de interfaz: avisos de efectivo/69-B/inversión visibles en facturas recibidas, fechas en hora local (antes salía el día siguiente por la tarde), Impuestos/DIOT/Conciliación recuerdan el mes y proponen el anterior, lista del Contabilizador más clara con el motivo de las pendientes, ventana de complemento de pago con UUID exacto, y ajustes visuales en gráfica, casillas, columnas y botones.",
+  "url": "https://raw.githubusercontent.com/NCMX-Conta/actualizaciones/main/v1.8.1/NeuralContaMX.exe",
+  "sha256": "0d1a1d345281ffb2e1d93be74fab2285f9ebb4534c352b94895fa775ea1d9f07",
+  "tamano": 69114119,
+  "firma": "g1XfRxX7xEqCPhqEn2MJCXkhHz9FI36wtlA4TZbfA4YlLNx4Us9ofnah6HNJ1TMdrW0Mxrja64ZIVozS0EKLDw=="
 }
