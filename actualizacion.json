@@ -1,9 +1,9 @@
 {
-  "version": "1.8.1",
+  "version": "1.9.0",
   "fecha": "2026-11-15",
-  "notas": "Correcciones de interfaz: avisos de efectivo/69-B/inversión visibles en facturas recibidas, fechas en hora local (antes salía el día siguiente por la tarde), Impuestos/DIOT/Conciliación recuerdan el mes y proponen el anterior, lista del Contabilizador más clara con el motivo de las pendientes, ventana de complemento de pago con UUID exacto, y ajustes visuales en gráfica, casillas, columnas y botones.",
-  "url": "https://raw.githubusercontent.com/NCMX-Conta/actualizaciones/main/v1.8.1/NeuralContaMX.exe",
-  "sha256": "0d1a1d345281ffb2e1d93be74fab2285f9ebb4534c352b94895fa775ea1d9f07",
-  "tamano": 69114119,
-  "firma": "g1XfRxX7xEqCPhqEn2MJCXkhHz9FI36wtlA4TZbfA4YlLNx4Us9ofnah6HNJ1TMdrW0Mxrja64ZIVozS0EKLDw=="
+  "notas": "Pólizas agrupadas: elige una póliza por factura, por cliente/proveedor al mes, por regla al mes o por pago (un solo renglón de Bancos por complemento). Cada regla puede tener su propia forma, cada renglón conserva el folio y UUID de su factura (contabilidad electrónica por renglón), botón para agrupar las pólizas existentes con vista previa y botón Separar. Al borrar una póliza sus facturas vuelven a pendientes por UUID exacto.",
+  "url": "https://raw.githubusercontent.com/NCMX-Conta/actualizaciones/main/v1.9.0/NeuralContaMX.exe",
+  "sha256": "93195a94702e71a45cb903eb59856a54e05d4be34e26e671c071e881fd2e73bb",
+  "tamano": 69131439,
+  "firma": "T8zT7ixRR35KbxEDmJSp9j4+0qY+QzwHKUf04xbhe/4UIaOeO9qxqm/7vcHXYNGE4TAtDV5/Gb7akqhEoORSBQ=="
 }
