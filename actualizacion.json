@@ -1,9 +1,9 @@
 {
-  "version": "1.9.0",
-  "fecha": "2026-11-15",
-  "notas": "Pólizas agrupadas: elige una póliza por factura, por cliente/proveedor al mes, por regla al mes o por pago (un solo renglón de Bancos por complemento). Cada regla puede tener su propia forma, cada renglón conserva el folio y UUID de su factura (contabilidad electrónica por renglón), botón para agrupar las pólizas existentes con vista previa y botón Separar. Al borrar una póliza sus facturas vuelven a pendientes por UUID exacto.",
-  "url": "https://raw.githubusercontent.com/NCMX-Conta/actualizaciones/main/v1.9.0/NeuralContaMX.exe",
-  "sha256": "93195a94702e71a45cb903eb59856a54e05d4be34e26e671c071e881fd2e73bb",
-  "tamano": 69131439,
-  "firma": "T8zT7ixRR35KbxEDmJSp9j4+0qY+QzwHKUf04xbhe/4UIaOeO9qxqm/7vcHXYNGE4TAtDV5/Gb7akqhEoORSBQ=="
+  "version": "1.10.0",
+  "fecha": "2026-11-17",
+  "notas": "Impuestos de personas físicas: las inversiones (uso I01–I08 y vehículos) ya no se deducen como gasto del mes sino por depreciación, con tope de automóviles (75,000 / 50,000 híbridos) e IVA proporcional; las deducciones personales (D01–D10) quedan fuera de los pagos provisionales y su IVA no se acredita; la nota de crédito que aplica un anticipo ya no se registra como reembolso en bancos. Clasificación manual con el botón ⚖ y revisión de pólizas mal registradas.",
+  "url": "https://raw.githubusercontent.com/NCMX-Conta/actualizaciones/main/v1.10.0/NeuralContaMX.exe",
+  "sha256": "44cf08d671bdc11be7da4ee7d0645d54e0f17cf74d10e5c48d733adff71ccb91",
+  "tamano": 69149555,
+  "firma": "Zz2C7RmcD1cP9gfh6tqRpnPmwx1R2/jXjgYRRHpqRoLjcBVnvnktiBtaBv86paZUSCrUZ305uExrSM29cXeZAg=="
 }
