@@ -1,9 +1,9 @@
 {
-  "version": "1.11.0",
+  "version": "1.12.0",
   "fecha": "2026-11-17",
-  "notas": "Impuestos: tabla de pagos del ejercicio para capturar lo que realmente se declaró (ISR, IVA, saldo a favor aplicado y fecha); el ISR usa lo declarado como pagos anteriores y marca cuánto falta en complementarias. La DIOT reporta como no acreditable el IVA de deducciones personales y de automóviles arriba del tope.",
-  "url": "https://raw.githubusercontent.com/NCMX-Conta/actualizaciones/main/v1.11.0/NeuralContaMX.exe",
-  "sha256": "6e5776998310d9b31e5ae39e88735615ba13562a19cfdb00d6533cee9423f327",
-  "tamano": 69157525,
-  "firma": "Z4ulHMcIqJ+h/q1wXGkg/6P9AlLNqth0Spm2gng890Pf547zhzTyC/Qhc7ZauTkQlTUwu4MVcasUJt6MbrNtBg=="
+  "notas": "Declaración anual de personas físicas: actividad empresarial y arrendamiento (art. 152) con depreciación, PTU, pérdidas, otros ingresos y deducciones personales con sus topes (global 5 UMA o 15%, funerales, donativos, retiro y colegiaturas por nivel), y RESICO (art. 113-F); resta pagos provisionales declarados y retenciones.",
+  "url": "https://raw.githubusercontent.com/NCMX-Conta/actualizaciones/main/v1.12.0/NeuralContaMX.exe",
+  "sha256": "db5827b2b9321c3b1914b8d7539b780dfad815287881f749942ff1d64641d548",
+  "tamano": 69169986,
+  "firma": "F7uMFnNCyoOB0Tn1LtiHkKPd5DbuxaO39Epu37V1cPE0djqt8IoeEjeskx+QZvu/goWvzBAT/+ehkDAuQkY6Bg=="
 }
