@@ -1,9 +1,9 @@
 {
-  "version": "1.13.0",
-  "fecha": "2026-11-17",
-  "notas": "Activos fijos capturados a mano (depreciación previa, inicio de uso, baja y ajuste de los de factura) y cuentas aprendidas: al corregir la cuenta de una póliza, la app ofrece recordarla para ese RFC.",
-  "url": "https://github.com/NCMX-Conta/actualizaciones/releases/download/v1.13.0/NeuralContaMX.exe",
-  "sha256": "511bb29d834ed4ed8eacc69cb82e504674975273c05b05a8fbb87f8d9db29c3b",
-  "tamano": 69187920,
-  "firma": "HIypcN1tvC0exyhoLGRl34UN3jJNAPMqsNEMEmueaPGQk31mg/jOjttOpIc/FykO9OngwToU8KF4RCYuj94nBA=="
+  "version": "1.13.1",
+  "fecha": "2026-11-24",
+  "notas": "Contabilizar desde una fecha: las facturas anteriores (XML de años pasados) no se contabilizan y sus cobros o pagos posteriores entran con su complemento de pago.",
+  "url": "https://github.com/NCMX-Conta/actualizaciones/releases/download/v1.13.1/NeuralContaMX.exe",
+  "sha256": "29e695198376b94f49318311093a146522b775dcf97a95bd4d0f400299928b7f",
+  "tamano": 70645799,
+  "firma": "qk+Sves0KxfEnZCTwyYtwi5OiMmxeXzJulJ1a9CACrUaY4sDEGEL07FC9UYNr0ZBMZqF9RwQyLYueDA1JuwaDw=="
 }

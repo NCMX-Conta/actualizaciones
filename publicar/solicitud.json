@@ -1,7 +1,0 @@
-{
-  "version": "1.13.1",
-  "notas": "Contabilizar desde una fecha: las facturas anteriores (XML de años pasados) no se contabilizan y sus cobros o pagos posteriores entran con su complemento de pago.",
-  "sha256": "29e695198376b94f49318311093a146522b775dcf97a95bd4d0f400299928b7f",
-  "tamano": 70645799,
-  "firma": "qk+Sves0KxfEnZCTwyYtwi5OiMmxeXzJulJ1a9CACrUaY4sDEGEL07FC9UYNr0ZBMZqF9RwQyLYueDA1JuwaDw=="
-}
