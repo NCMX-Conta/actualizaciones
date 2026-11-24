@@ -1,0 +1,47 @@
+# Publica una versión cuando llega su solicitud firmada (publicar/solicitud.json):
+# comprueba que el borrador del Release tenga el programa firmado, lo hace público
+# y actualiza actualizacion.json, que es lo que consultan las apps instaladas.
+name: Publicar versión
+on:
+  push:
+    branches: [main]
+    paths: ['publicar/solicitud.json']
+permissions:
+  contents: write
+concurrency:
+  group: publicar
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verificar el borrador y la firma
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -e
+          VER=$(node -p "require('./publicar/solicitud.json').version")
+          [ "$(gh release view "v$VER" --json isDraft -q .isDraft)" = true ] || { echo "No hay borrador de la versión $VER"; exit 1; }
+          gh release download "v$VER" --pattern NeuralContaMX.exe --dir /tmp/rel
+          node .github/verificar.js /tmp/rel/NeuralContaMX.exe publicar/solicitud.json
+          echo "VER=$VER" >> $GITHUB_ENV
+      - name: Publicar
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -e
+          NOTAS=$(node -p "require('./publicar/solicitud.json').notas")
+          gh release edit "v$VER" --draft=false --latest --notes "$NOTAS"
+          node -e '
+            const fs = require("fs"), s = JSON.parse(fs.readFileSync("publicar/solicitud.json", "utf8"))
+            const m = { version: s.version, fecha: new Date().toISOString().slice(0, 10), notas: s.notas,
+              url: `https://github.com/${process.env.GITHUB_REPOSITORY}/releases/download/v${s.version}/NeuralContaMX.exe`,
+              sha256: s.sha256, tamano: s.tamano, firma: s.firma }
+            fs.writeFileSync("actualizacion.json", JSON.stringify(m, null, 2) + "\n")'
+          git rm -q publicar/solicitud.json
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add actualizacion.json
+          git commit -q -m "Versión $VER"
+          git push -q
+          echo "Publicada la versión $VER" >> $GITHUB_STEP_SUMMARY
