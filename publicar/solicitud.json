@@ -1,7 +1,0 @@
-{
-  "version": "1.13.2",
-  "notas": "Impuestos avisa si en el mes hay facturas, notas de crédito, nóminas o complementos de pago sin contabilizar, para no declarar con cifras incompletas.",
-  "sha256": "eb9c387b44d140358e9199a3f346dcd77284ea5273f41812744bda85d346209c",
-  "tamano": 70646797,
-  "firma": "p3/CS+CjlKPArhG8lDHBbNSWAi6ZpGlXTkfVHUoFuokfDxo27mYkJK2nuPUcsp5SQsjgr7d/MkxqcwagNon3AA=="
-}

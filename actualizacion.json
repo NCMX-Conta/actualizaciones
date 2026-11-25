@@ -1,9 +1,9 @@
 {
-  "version": "1.13.1",
-  "fecha": "2026-11-24",
-  "notas": "Contabilizar desde una fecha: las facturas anteriores (XML de años pasados) no se contabilizan y sus cobros o pagos posteriores entran con su complemento de pago.",
-  "url": "https://github.com/NCMX-Conta/actualizaciones/releases/download/v1.13.1/NeuralContaMX.exe",
-  "sha256": "29e695198376b94f49318311093a146522b775dcf97a95bd4d0f400299928b7f",
-  "tamano": 70645799,
-  "firma": "qk+Sves0KxfEnZCTwyYtwi5OiMmxeXzJulJ1a9CACrUaY4sDEGEL07FC9UYNr0ZBMZqF9RwQyLYueDA1JuwaDw=="
+  "version": "1.13.2",
+  "fecha": "2026-11-25",
+  "notas": "Impuestos avisa si en el mes hay facturas, notas de crédito, nóminas o complementos de pago sin contabilizar, para no declarar con cifras incompletas.",
+  "url": "https://github.com/NCMX-Conta/actualizaciones/releases/download/v1.13.2/NeuralContaMX.exe",
+  "sha256": "eb9c387b44d140358e9199a3f346dcd77284ea5273f41812744bda85d346209c",
+  "tamano": 70646797,
+  "firma": "p3/CS+CjlKPArhG8lDHBbNSWAi6ZpGlXTkfVHUoFuokfDxo27mYkJK2nuPUcsp5SQsjgr7d/MkxqcwagNon3AA=="
 }
